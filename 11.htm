@@ -10,9 +10,22 @@ th{text-align:center; }
     display: grid;  
     grid-template-columns: 100px 100px 100px;  
     grid-template-rows: 50px 50px;  }
-input{border-radius:5rem;}
+    ::-ms-input-placeholder { /* Microsoft Edge */
+ color: rgb(12, 10, 143);}
+ td{text-align: center;}
+ input.form-control{background-color: transparent;
+ border-top: none;
+ border-left:none;
+ border-radius: 2px;
+ border-right-color: navy;
+ border-bottom-color: navy;
+ border-bottom-style: outset;
+ }
+ hr{border-top:2px groove navy;}
+li.list-group-item{background-color: royalblue;color:white;text-align: center}
 
 </style>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 
    </head>
@@ -21,31 +34,32 @@ input{border-radius:5rem;}
 
 
 
-<h2 align=center><b><hr>One step learning platform for preparation of competitive exams<hr>
+<h2 align=center style=color:royalblue><b><hr>One step learning platform for preparation of competitive exams<hr>
 SSC/BANK/CDS/NDA/AFCAT/UGC-NET</b></h2>
 
-<div id="main"  style="padding-left:20px;display:inline-block;margin: 0 auto;transform: translate(40%, 20%);position:absolute;">
-<div class="card" style="display:inline-block;width:50em;height:65rem;border-color:rgb(30,40,50);border-style:groove;box-shadow:0px 20px 10px rgb(30,40,50);padding:20px;">
-  <div class="card-body"><h3 class="card-title">Get Daily Dose of:</h3>
-<p><ul class="list-group"><li class="list-group-item">Live Competitive Test </li>
+<div id="main"  style="padding-left:20px;display:inline-block;margin: 0 auto;transform: translate(40%, 15%);position:absolute;">
+<div class="card" style="display:inline-block;width:50em;height:65rem;border-color:rgb(30,40,50);background-color:rgb(10,20,100);border-style:groove;box-shadow:0px 40px 10px rgb(30,40,50);padding:20px;">
+  <div class="card-body"><h1 class="card-title" style="color:white">Get Daily Dose of:</h1>
+<p><ul class="list-group" style="font-size:22px; "><li class="list-group-item">Live Competitive Test </li>
 <li class="list-group-item">The Hindu Editorial Vocabulary and analysis</li>
 <li class="list-group-item">Updated Vocabs.</li>
 <li class="list-group-item">Practice Sets</li>
 <li class="list-group-item">Grammar Notes</li>
-<li class="list-group-item">Previous Years papers with solutions</li></ul><hr>
+<li class="list-group-item">Previous Years papers with solutions</li></ul><hr style="border-top:2px groove white;">
 </p>
+<span style="align-content: center;"></p><i  class='fas fa-chalkboard-teacher' style='font-size: 18em;color:rgb(0, 255, 170);;'></i>
                   
-
+></span>
 </div>
 </div>
-<div  class=card style="position:absolute;display:inline-block;width:50em;height:65rem;border-color:rgb(30,40,50);border-style:groove;box-shadow:20px 20px 10px rgb(30,40,50);padding:20px;margin-left:10px;">
-  <div class="card-body"><h3 class="card-title" align=center><b>Sign in if already registered</b></h3>
-           <table cellpadding=5  align=center style="border-collapse: separate; border-spacing: 0 15px;">
+<div  class=card style="position:absolute;display:inline-block;width:50em;height:65rem;border-color:rgb(30,40,50);border-style:groove;background-color:rgb(0,255,170);box-shadow:20px 40px 10px rgb(30,40,50);padding:20px;margin-left:10px;">
+  <div class="card-body"><h2 class="card-title" align=center style="border-color:navy;color:rgb(10,20,100);font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Sign in if already registered</b></h2>
+           <table cellpadding=5   align=center style="border-collapse: separate; border-spacing: 0 15px;">
 <form method="post" enctype="text/plain" action="mailto:anmol323c@gmail.com">
    <colgroup align="right" valign="top">
    <tr>
       <td width=150 align=right><b>Name:</b></td>
-      <td width=200><input type="text" class="form-control" name="name" placeholder="Enter your name"></td>
+      <td width=200><input type="text" class="form-control" name="name" style="background:transparent;border-color:darkblue;color:navy;" placeholder="Enter your name" ></td>
    </tr>
    <tr>
       <td align=right><b>E-mail address:</b></td>
@@ -57,9 +71,9 @@ SSC/BANK/CDS/NDA/AFCAT/UGC-NET</b></h2>
    </tr>
   
 <tr>
-   <td colspan=2 align=center width=350><input class="btn btn-primary" type="submit" value="sign up"><hr></td>
+   <td colspan=2 align=center width=350><input class="btn btn-primary" style="font-size:16px;background-color:royalblue;width:15em ;height:3em" type="submit" value="Sign up"><hr></td>
 </tr> 
-<tr><td colspan=2><p align=center><hr color=rgb(0,255,255) width=600 height=500></p>
+<tr><td colspan=2><p align=center><hr width=600 height=500></p>
 </td></tr>
   
   
@@ -76,7 +90,7 @@ SSC/BANK/CDS/NDA/AFCAT/UGC-NET</b></h2>
    <td> <input type=checkbox name=remember class="form-check-input" ></td>
 </tr>
 <tr>
-   <td colspan=2 align=center width=350><input type="submit" class="btn btn-primary" value="sign in"></td>
+   <td colspan=2 align=center width=350><input type="submit" class="btn btn-primary" style="font-size:16px;background-color:royalblue;width:15em ;height:3em" value="Sign in"></td>
     
 </tr> 
 
@@ -88,17 +102,11 @@ SSC/BANK/CDS/NDA/AFCAT/UGC-NET</b></h2>
 
 </div></div>
 
-
-
-
- 
-
-
 </div>
  
 
-<hr color= rgb(30,40,50) width=600 height=500>
-<hr color= rgb(30,40,50) width=6000 height=500>
+<hr width=600 height=500>
+<hr  width=6000 height=500>
 
 
 </body>
